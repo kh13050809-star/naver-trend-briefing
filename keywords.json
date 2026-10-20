@@ -1,7 +1,8 @@
 [
-  {"groupName": "국내주식", "keywords": ["코스피", "삼성전자", "SK하이닉스"]},
+  {"groupName": "한국주식", "keywords": ["코스피", "삼성전자", "SK하이닉스"]},
   {"groupName": "미국주식", "keywords": ["나스닥", "S&P500", "미국주식"]},
-  {"groupName": "부동산", "keywords": ["아파트", "부동산", "주택담보대출"]},
-  {"groupName": "가상자산", "keywords": ["비트코인", "이더리움"]},
-  {"groupName": "경제", "keywords": ["환율", "기준금리", "물가"]}
+  {"groupName": "경제", "keywords": ["환율", "기준금리", "물가"]},
+  {"groupName": "투자", "keywords": ["ETF", "채권", "금투자", "비트코인"]},
+  {"groupName": "재테크", "keywords": ["ISA", "연금저축", "정기예금"]}
 ]
+
