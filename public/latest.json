@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "waiting_for_first_collection",
+  "collected_at": null,
+  "source": "NAVER API HUB Search Trend",
+  "source_docs": "https://api.ncloud-docs.com/docs/naver-api-hub-search-trend",
+  "timezone": "Asia/Seoul",
+  "collection_interval_hours": 2,
+  "data_granularity": "day",
+  "data_through": null,
+  "interpretation": "아직 수집된 데이터가 없습니다. 인증값 설정 후 첫 수집이 필요합니다. 지정한 키워드의 상대 검색 관심도이며 실시간 인기검색어 순위가 아닙니다.",
+  "results": []
+}
