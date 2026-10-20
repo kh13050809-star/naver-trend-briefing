@@ -14,7 +14,7 @@ class CollectorChecks(unittest.TestCase):
     def test_contract_and_failure_preservation(self):
         groups = [{"groupName": "경제", "keywords": ["환율"]}]
         body = collect.request_body(groups, date(2026, 1, 1))
-        self.assertEqual((body["startDate"], body["endDate"]), ("2025-12-02", "2025-12-31"))
+        self.assertEqual((body["startDate"], body["endDate"]), ("2025-12-31", "2025-12-31"))
         raw = {**{k: body[k] for k in ("startDate", "endDate", "timeUnit")},
                "results": [{"title": "경제", "keywords": ["환율"],
                             "data": [{"period": "2025-12-31", "ratio": 100}]}]}

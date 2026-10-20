@@ -29,7 +29,7 @@ def request_body(groups, today):
             raise ValueError("Keywords must be nonempty strings")
     end = today - timedelta(days=1)
     return {
-        "startDate": (end - timedelta(days=29)).isoformat(),
+        "startDate": end.isoformat(),
         "endDate": end.isoformat(),
         "timeUnit": "date",
         "keywordGroups": groups,
