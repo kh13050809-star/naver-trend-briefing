@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-10-20T13:55:43.179770+09:00",
+  "attempted_at": "2026-10-20T14:03:54.952649+09:00",
   "last_success_at": null,
   "status": "waiting_for_secrets",
   "error_code": "missing_credentials"
