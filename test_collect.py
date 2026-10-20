@@ -14,10 +14,11 @@ class CollectorChecks(unittest.TestCase):
     def test_contract_and_failure_preservation(self):
         groups = [{"groupName": "경제", "keywords": ["환율"]}]
         body = collect.request_body(groups, date(2026, 1, 1))
-        self.assertEqual((body["startDate"], body["endDate"]), ("2025-12-31", "2025-12-31"))
+        self.assertEqual((body["startDate"], body["endDate"]), ("2025-12-30", "2025-12-31"))
         raw = {**{k: body[k] for k in ("startDate", "endDate", "timeUnit")},
                "results": [{"title": "경제", "keywords": ["환율"],
-                            "data": [{"period": "2025-12-31", "ratio": 100}]}]}
+                            "data": [{"period": "2025-12-30", "ratio": 50},
+                                     {"period": "2025-12-31", "ratio": 100}]}]}
         self.assertEqual(collect.validate_response(raw, body), raw["results"])
         for invalid in (float("nan"), -1, 101, True):
             broken = copy.deepcopy(raw)
