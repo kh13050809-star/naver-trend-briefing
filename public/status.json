@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
-  "status": "waiting_for_first_collection",
-  "attempted_at": null,
-  "last_success_at": null
+  "attempted_at": "2026-10-20T13:53:01.893202+09:00",
+  "last_success_at": null,
+  "status": "waiting_for_secrets",
+  "error_code": "missing_credentials"
 }
