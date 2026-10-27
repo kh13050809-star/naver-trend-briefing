@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "source_lag",
-  "collected_at": "2026-10-28T01:54:00.071199+09:00",
+  "collected_at": "2026-10-28T03:50:52.089922+09:00",
   "source": "NAVER API HUB Search Trend",
   "source_docs": "https://api.ncloud-docs.com/docs/naver-api-hub-search-trend",
   "timezone": "Asia/Seoul",
