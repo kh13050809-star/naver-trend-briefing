@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-10-30T03:57:39.190759+09:00",
-  "last_success_at": "2026-10-30T03:57:39.190759+09:00",
+  "attempted_at": "2026-10-30T05:51:26.759285+09:00",
+  "last_success_at": "2026-10-30T05:51:26.759285+09:00",
   "status": "source_lag",
   "data_through": "2026-10-28"
 }
