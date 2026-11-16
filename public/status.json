@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-11-16T07:46:16.200491+09:00",
+  "attempted_at": "2026-11-16T10:31:12.096560+09:00",
   "last_success_at": "2026-11-16T07:46:16.200491+09:00",
-  "status": "source_lag",
-  "data_through": "2026-11-14"
+  "status": "error",
+  "error_code": "http_400"
 }
