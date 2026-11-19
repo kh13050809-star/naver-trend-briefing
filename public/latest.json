@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "status": "source_lag",
-  "collected_at": "2026-11-19T07:56:17.219081+09:00",
+  "status": "ok",
+  "collected_at": "2026-11-19T16:20:47.359539+09:00",
   "source": "NAVER API HUB Search Trend",
   "source_docs": "https://api.ncloud-docs.com/docs/naver-api-hub-search-trend",
   "timezone": "Asia/Seoul",
   "collection_interval_hours": 2,
   "data_granularity": "day",
-  "data_through": "2026-11-17",
+  "data_through": "2026-11-18",
   "interpretation": "지정한 주제어 묶음의 일별 상대 검색 관심도. 실시간 인기검색어 순위나 절대 검색량이 아닙니다. 서로 다른 요청 기간의 ratio를 직접 비교하지 마세요.",
   "request": {
     "startDate": "2026-11-17",
@@ -69,6 +69,10 @@
         {
           "period": "2026-11-17",
           "ratio": 100
+        },
+        {
+          "period": "2026-11-18",
+          "ratio": 92.90186
         }
       ]
     },
@@ -83,6 +87,10 @@
         {
           "period": "2026-11-17",
           "ratio": 6.57716
+        },
+        {
+          "period": "2026-11-18",
+          "ratio": 6.73804
         }
       ]
     },
@@ -97,6 +105,10 @@
         {
           "period": "2026-11-17",
           "ratio": 29.31545
+        },
+        {
+          "period": "2026-11-18",
+          "ratio": 29.41995
         }
       ]
     },
@@ -112,6 +124,10 @@
         {
           "period": "2026-11-17",
           "ratio": 3.89657
+        },
+        {
+          "period": "2026-11-18",
+          "ratio": 3.40335
         }
       ]
     },
@@ -126,6 +142,10 @@
         {
           "period": "2026-11-17",
           "ratio": 0.16343
+        },
+        {
+          "period": "2026-11-18",
+          "ratio": 0.14452
         }
       ]
     }
