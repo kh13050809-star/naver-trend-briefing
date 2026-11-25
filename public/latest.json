@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "status": "ok",
-  "collected_at": "2026-11-24T23:50:16.523797+09:00",
+  "collected_at": "2026-11-25T09:41:39.499142+09:00",
   "source": "NAVER API HUB Search Trend",
   "source_docs": "https://api.ncloud-docs.com/docs/naver-api-hub-search-trend",
   "timezone": "Asia/Seoul",
   "collection_interval_hours": 2,
   "data_granularity": "day",
-  "data_through": "2026-11-23",
+  "data_through": "2026-11-24",
   "interpretation": "지정한 주제어 묶음의 일별 상대 검색 관심도. 실시간 인기검색어 순위나 절대 검색량이 아닙니다. 서로 다른 요청 기간의 ratio를 직접 비교하지 마세요.",
   "request": {
-    "startDate": "2026-11-22",
-    "endDate": "2026-11-23",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-24",
     "timeUnit": "date",
     "keywordGroups": [
       {
@@ -67,12 +67,12 @@
       ],
       "data": [
         {
-          "period": "2026-11-22",
-          "ratio": 9.43224
-        },
-        {
           "period": "2026-11-23",
           "ratio": 100
+        },
+        {
+          "period": "2026-11-24",
+          "ratio": 93.35027
         }
       ]
     },
@@ -85,12 +85,12 @@
       ],
       "data": [
         {
-          "period": "2026-11-22",
-          "ratio": 1.1235
-        },
-        {
           "period": "2026-11-23",
           "ratio": 4.02305
+        },
+        {
+          "period": "2026-11-24",
+          "ratio": 6.87629
         }
       ]
     },
@@ -103,12 +103,12 @@
       ],
       "data": [
         {
-          "period": "2026-11-22",
-          "ratio": 7.22634
-        },
-        {
           "period": "2026-11-23",
           "ratio": 24.64653
+        },
+        {
+          "period": "2026-11-24",
+          "ratio": 22.75545
         }
       ]
     },
@@ -122,12 +122,12 @@
       ],
       "data": [
         {
-          "period": "2026-11-22",
-          "ratio": 3.52308
-        },
-        {
           "period": "2026-11-23",
           "ratio": 3.9392
+        },
+        {
+          "period": "2026-11-24",
+          "ratio": 3.07718
         }
       ]
     },
@@ -140,12 +140,12 @@
       ],
       "data": [
         {
-          "period": "2026-11-22",
-          "ratio": 0.07265
-        },
-        {
           "period": "2026-11-23",
           "ratio": 0.11707
+        },
+        {
+          "period": "2026-11-24",
+          "ratio": 0.11368
         }
       ]
     }
